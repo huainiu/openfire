@@ -455,7 +455,10 @@ public class SipManager implements SipListener {
             fireCommunicationsError(new CommunicationsException(
                     "Failed to create a NOT_IMPLEMENTED response to a "
                             + request.getMethod() + " request!", ex));
-        }
+        } catch (InvalidArgumentException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
     }
 
     public void fireCommunicationsError(Throwable throwable) {
@@ -920,5 +923,23 @@ public class SipManager implements SipListener {
         }
 
     }
+
+	@Override
+	public void processDialogTerminated(DialogTerminatedEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void processIOException(IOExceptionEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void processTransactionTerminated(TransactionTerminatedEvent arg0) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }
