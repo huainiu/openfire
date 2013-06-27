@@ -62,7 +62,7 @@
 	<classpathentry kind="lib" path="build/lib/merge/jaxen.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jdom.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jetty-continuation.jar"/>
-	<classpathentry kind="lib" path="build/lib/merge/jetty-http.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-http.jar" sourcepath="D:/application/repository/org/eclipse/jetty/jetty-http/7.5.4.v20111024/jetty-http-7.5.4.v20111024-sources.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jetty-io.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jetty-security.jar"/>
 	<classpathentry kind="lib" path="build/lib/merge/jetty-server.jar"/>
@@ -148,6 +148,10 @@
 	<classpathentry kind="lib" path="src/web/WEB-INF/lib/commons-fileupload.jar"/>
 	<classpathentry kind="lib" path="src/web/WEB-INF/lib/commons-io.jar"/>
 	<classpathentry kind="lib" path="src/web/WEB-INF/lib/dwr.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/jetty-jmx.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/coherence-work.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/coherence.jar"/>
+	<classpathentry kind="lib" path="build/lib/merge/mina-integration-jmx.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="src/plugins/stunserver/lib/jstun-0.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
